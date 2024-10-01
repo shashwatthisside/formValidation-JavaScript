@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.drag-area{
+    display: inline-block;
+    margin: auto;
+
+    border: 2px dashed #b8e70c;
+    height: 300px;
+    width: 550px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .drag-area.active{
+    border: 2px solid  #b8e70c;
+  }
+
+
+  .drag-area .icon{
+    font-size: 60px;
+    color: #fff;
+  }
+  .drag-area header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #240101;
+  }
+
+
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #c0b1b1;
+    color: #0f124b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .drag-area img{
+    height: 80%;
+    width: 85%;
+    object-fit: scale-down;
+    border-radius: 5px;
+  }
+
+
+  .formerror {
+    color: rgb(232, 248, 1);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.wrapper{
+  border: 2px solid white;
+  background-color: #240101;
+  padding: 40px 190px;
+  height: 170vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
